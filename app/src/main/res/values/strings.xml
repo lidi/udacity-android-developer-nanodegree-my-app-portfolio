@@ -8,4 +8,5 @@
     <string name="buildItBiggerButton">BUILD IT BIGGER</string>
     <string name="xyzReaderButton">XYZ READER</string>
     <string name="capstoneButton">CAPSTONE: MY OWN APP</string>
+    <string name="capstoneToastMsg">This button will lauch my capstone app!</string>
 </resources>

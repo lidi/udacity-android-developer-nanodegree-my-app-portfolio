@@ -20,7 +20,8 @@
         android:text="@string/spotifyButton"
         android:id="@+id/spotifyButton"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/round_buttons" />
+        android:background="@drawable/round_buttons"
+        android:onClick="launchSpotifyStreamer" />
 
     <Button
         android:layout_width="@dimen/listButtonWidth"
@@ -29,7 +30,8 @@
         android:text="@string/scoresButton"
         android:id="@+id/scoresButton"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/round_buttons" />
+        android:background="@drawable/round_buttons"
+        android:onClick="launchScoresApp" />
 
     <Button
         android:layout_width="@dimen/listButtonWidth"
@@ -38,7 +40,8 @@
         android:id="@+id/libraryButton"
         android:layout_marginTop="5dp"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/round_buttons" />
+        android:background="@drawable/round_buttons"
+        android:onClick="launchLibraryApp" />
 
     <Button
         android:layout_width="@dimen/listButtonWidth"
@@ -47,7 +50,8 @@
         android:text="@string/buildItBiggerButton"
         android:id="@+id/builtItBiggerButton"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/round_buttons"/>
+        android:background="@drawable/round_buttons"
+        android:onClick="launchBuilditBigger" />
 
     <Button
         android:layout_width="@dimen/listButtonWidth"
@@ -56,7 +60,8 @@
         android:text="@string/xyzReaderButton"
         android:id="@+id/xyzReaderButton"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/round_buttons"/>
+        android:background="@drawable/round_buttons"
+        android:onClick="launchXyzReader" />
 
     <Button
         android:layout_width="@dimen/listButtonWidth"
@@ -65,5 +70,6 @@
         android:text="@string/capstoneButton"
         android:id="@+id/capstoneButton"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/capstone_button"/>
+        android:background="@drawable/capstone_button"
+        android:onClick="launchCapstoneApp"/>
 </LinearLayout>

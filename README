@@ -1,5 +1,9 @@
-Used resources:
+TODO:
+
+1. Figure out how to parametrize and access drawables to avoid code duplication.
+
+USED RESOURCES:
 
 StackOverflow:
 
-Make buttons round: https://stackoverflow.com/questions/6054562/how-to-make-the-corners-of-a-button-round/18879660#18879660
+1. Make buttons round: https://stackoverflow.com/questions/6054562/how-to-make-the-corners-of-a-button-round/18879660#18879660
